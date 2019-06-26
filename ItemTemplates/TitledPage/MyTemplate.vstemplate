@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+	  <TemplateID>TitledPage</TemplateID>
+    <DefaultName>TitledPage.cs</DefaultName>
+    <Name>TitledPage for Xamarin.Forms (RedCorners)</Name>
+    <Description>Xamarin.Forms Page with TitleBar</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1</SortOrder>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+    <AppliesTo>CSharp</AppliesTo>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ItemType="EmbeddedResource" SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">TitledPage.xaml</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.xaml.cs" ReplaceParameters="true">TitledPage.xaml.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

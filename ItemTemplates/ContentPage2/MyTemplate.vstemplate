@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <TemplateID>ContentPage2</TemplateID>
+    <DefaultName>ContentPage.xaml</DefaultName>
+    <Name>ContentPage2 for Xamarin.Forms (RedCorners)</Name>
+    <Description>ContentPage2 is a powerful Xamarin.Forms ContentPage</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>10</SortOrder>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+    <AppliesTo>CSharp</AppliesTo>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem ItemType="EmbeddedResource" SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">ContentPage1.xaml</ProjectItem>
+    <ProjectItem SubType="Code" TargetFileName="$fileinputname$.xaml.cs" ReplaceParameters="true">ContentPage1.xaml.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
