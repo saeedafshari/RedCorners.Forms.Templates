@@ -30,7 +30,7 @@
         <ProjectItem ReplaceParameters="false" TargetFileName="Default-Portrait@2x.png">Default-Portrait@2x.png</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="Default.png">Default.png</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="Default@2x.png">Default@2x.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="icon_rect_1024.png">icon_rect_1024.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="icon@2x.png">icon@2x.png</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="LaunchScreen.storyboard">LaunchScreen.storyboard</ProjectItem>
       </Folder>
         <Folder Name="Assets.xcassets" TargetFolderName="Assets.xcassets">

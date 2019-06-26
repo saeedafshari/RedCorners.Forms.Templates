@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rf:ContentPage2
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:rf="clr-namespace:RedCorners.Forms;assembly=RedCorners.Forms"
+    mc:Ignorable="d"
+    x:Class="$rootnamespace$.$safeitemname$">
+    <ContentPage.BindingContext>
+        <rf:BindableModel />
+    </ContentPage.BindingContext>
+
+    <rf:TitledContentView 
+        Title="$safeitemname$" 
+        TitleColor="#e91e63" 
+        BackCommand="{Binding ShowSideBarCommand}" 
+        IsBackButtonVisible="False">
+        <rf:TitledContentView.ToolBar>
+            <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                <!-- Define Toolbar Here -->
+            </StackLayout>
+        </rf:TitledContentView.ToolBar>
+
+        <rf:TitledContentView.Overlay>
+            <rf:SideBar ContentSize="2*" Side="Left">
+                <Frame Padding="0" BackgroundColor="#333333" HasShadow="True" CornerRadius="0">
+                    <StackLayout Padding="20, 40">
+                        <!-- Define SideBar Here -->
+                    </StackLayout>
+                </Frame>
+            </rf:SideBar>
+        </rf:TitledContentView.Overlay>
+
+        
+        <rf:TabbedContentView
+            Transition="DipToBackground"
+            BackgroundColor="White"
+            TabBarBackgroundColor="#FEFEFE"
+            TabStyle="ImageText"
+            TabBarPadding="0,5,0,10"
+            TabBarSizeRequest="80">
+            <rf:ContentView2 Title="Page 1" Icon="icon">
+                <Grid>
+                    <Label HorizontalOptions="Center" VerticalOptions="Center" Text="Hello, $safeitemname$ !" />
+                </Grid>
+            </rf:ContentView2>
+
+            <rf:ContentView2 Title="Page 2" Icon="icon">
+                <Grid>
+                    <Label HorizontalOptions="Center" VerticalOptions="Center" Text="Page 2" />
+                </Grid>
+            </rf:ContentView2>
+
+            <rf:ContentView2 Title="Page 3" Icon="icon">
+                <Grid>
+                    <Label HorizontalOptions="Center" VerticalOptions="Center" Text="Page 3" />
+                </Grid>
+            </rf:ContentView2>
+        </rf:TabbedContentView>
+    </rf:TitledContentView>
+</rf:ContentPage2>
