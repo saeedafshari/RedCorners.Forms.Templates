@@ -13,7 +13,7 @@
   </TemplateData>
   <TemplateContent>
     <References />
-    <ProjectItem SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">App.xaml</ProjectItem>
+    <ProjectItem ItemType="EmbeddedResource" SubType="Designer" TargetFileName="$fileinputname$.xaml" ReplaceParameters="true">App.xaml</ProjectItem>
     <ProjectItem SubType="Code" TargetFileName="$fileinputname$.xaml.cs" ReplaceParameters="true">App.xaml.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>
