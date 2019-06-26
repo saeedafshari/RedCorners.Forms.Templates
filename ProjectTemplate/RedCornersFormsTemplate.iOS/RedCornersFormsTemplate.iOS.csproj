@@ -178,6 +178,6 @@
   <ItemGroup>
     <BundleResource Include="Resources\**\*.png" />
   </ItemGroup>
-  <Import Project="$(ProjectDir)\..\$ext_safeprojectname$\$ext_safeprojectname$.projitems" Label="Shared" />
+  <Import Project="..\$ext_safeprojectname$\$ext_safeprojectname$.projitems" Condition="Exists('..\$ext_safeprojectname$\$ext_safeprojectname$.projitems')" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

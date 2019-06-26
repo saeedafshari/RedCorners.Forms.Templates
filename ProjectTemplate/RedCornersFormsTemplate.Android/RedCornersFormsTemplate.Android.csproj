@@ -99,6 +99,9 @@
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-xxhdpi\**\*.png" />
   </ItemGroup>
-  <Import Project="$(ProjectDir)\..\$ext_safeprojectname$\$ext_safeprojectname$.projitems" Label="Shared" />
+  <Import 
+    Project="..\$ext_safeprojectname$\$ext_safeprojectname$.projitems" 
+    Condition="Exists('..\$ext_safeprojectname$\$ext_safeprojectname$.projitems')" 
+    Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
 </Project>
