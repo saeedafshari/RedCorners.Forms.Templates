@@ -11,6 +11,7 @@
         <PlatformTag>android</PlatformTag>
         <PlatformTag>ios</PlatformTag>
         <ProjectTypeTag>mobile</ProjectTypeTag>
+        <CreateInPlace>true</CreateInPlace>  
     </TemplateData>
     <TemplateContent>
         <ProjectCollection>

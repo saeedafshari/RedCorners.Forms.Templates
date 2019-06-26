@@ -71,6 +71,27 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@1x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@2x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@1x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@2x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@2x1.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@3x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@1x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@2x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@2x1.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@3x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@1x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@2x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@3x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-72x72@1x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@1x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@2x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5@2x.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\icon_rect_1024.png"/>
+    <None Include="Assets.xcassets\AppIcon.appiconset\Contents.json"/>
+  </ItemGroup>
+  <ItemGroup>
     <ImageAsset Include="Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@1x.png">
       <Visible>false</Visible>
     </ImageAsset>
@@ -157,6 +178,6 @@
   <ItemGroup>
     <BundleResource Include="Resources\**\*.png" />
   </ItemGroup>
-  <!--<Import Project="..\$ext_safeprojectname$\$ext_safeprojectname$.projitems" Label="Shared" />-->
+  <Import Project="$(ProjectDir)\..\$ext_safeprojectname$\$ext_safeprojectname$.projitems" Label="Shared" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>
