@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
 	  <TemplateID>TitledPage</TemplateID>
-    <DefaultName>TitledPage.cs</DefaultName>
+    <DefaultName>TitledPage.xaml</DefaultName>
     <Name>TitledPage for Xamarin.Forms (RedCorners)</Name>
     <Description>Xamarin.Forms Page with TitleBar</Description>
     <ProjectType>CSharp</ProjectType>

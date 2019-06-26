@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
 	  <TemplateID>TitledModalPage</TemplateID>
-    <DefaultName>TitledPage.cs</DefaultName>
+    <DefaultName>TitledModalPage.xaml</DefaultName>
     <Name>Modal Titled Page for Xamarin.Forms (RedCorners)</Name>
     <Description>Xamarin.Forms Modal Page with TitleBar</Description>
     <ProjectType>CSharp</ProjectType>
