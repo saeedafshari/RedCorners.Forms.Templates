@@ -1,0 +1,19 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
+  <TemplateData>
+    <TemplateID>BindableModel</TemplateID>
+    <DefaultName>BindableModel.cs</DefaultName>
+    <Name>Bindable ViewModel (RedCorners)</Name>
+    <Description>Bindable Model / View Model</Description>
+    <ProjectType>CSharp</ProjectType>
+    <SortOrder>1</SortOrder>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+    <AppliesTo>CSharp</AppliesTo>
+    <NumberOfParentCategoriesToRollUp>2</NumberOfParentCategoriesToRollUp>
+
+  </TemplateData>
+  <TemplateContent>
+    <References />
+    <ProjectItem SubType="" TargetFileName="$fileinputname$.cs" ReplaceParameters="true">ViewModel.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>
