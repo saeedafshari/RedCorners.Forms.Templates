@@ -7,9 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedCornersFormsTemplate.And
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedCornersFormsTemplate.iOS", "RedCornersFormsTemplate.iOS\RedCornersFormsTemplate.iOS.csproj", "{2DBC1A1D-AC46-4809-8C23-5068D7151502}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedCornersFormsTemplate", "RedCornersFormsTemplate\RedCornersFormsTemplate.csproj", "{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}"
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "RedCornersFormsTemplate.Shared", "RedCornersFormsTemplate.Shared\RedCornersFormsTemplate.Shared.shproj", "{A7933B0D-8DB4-4AB3-8D88-645CC01F5857}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		RedCornersFormsTemplate.Shared\RedCornersFormsTemplate.Shared.projitems*{13141258-7b06-4982-b9e3-fc33185ef3f0}*SharedItemsImports = 4
+		RedCornersFormsTemplate.Shared\RedCornersFormsTemplate.Shared.projitems*{2dbc1a1d-ac46-4809-8c23-5068d7151502}*SharedItemsImports = 4
+		RedCornersFormsTemplate.Shared\RedCornersFormsTemplate.Shared.projitems*{a7933b0d-8db4-4ab3-8d88-645cc01f5857}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|iPhone = Debug|iPhone
@@ -55,24 +60,6 @@ Global
 		{2DBC1A1D-AC46-4809-8C23-5068D7151502}.Release|iPhoneSimulator.ActiveCfg = Release|iPhoneSimulator
 		{2DBC1A1D-AC46-4809-8C23-5068D7151502}.Release|iPhoneSimulator.Build.0 = Release|iPhoneSimulator
 		{2DBC1A1D-AC46-4809-8C23-5068D7151502}.Release|iPhoneSimulator.Deploy.0 = Release|iPhoneSimulator
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Debug|iPhone.ActiveCfg = Debug|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Debug|iPhone.Build.0 = Debug|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Debug|iPhone.Deploy.0 = Debug|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Debug|iPhoneSimulator.ActiveCfg = Debug|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Debug|iPhoneSimulator.Build.0 = Debug|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Debug|iPhoneSimulator.Deploy.0 = Debug|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Release|Any CPU.Deploy.0 = Release|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Release|iPhone.ActiveCfg = Release|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Release|iPhone.Build.0 = Release|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Release|iPhone.Deploy.0 = Release|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Release|iPhoneSimulator.ActiveCfg = Release|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Release|iPhoneSimulator.Build.0 = Release|Any CPU
-		{6BB5B412-6D02-4737-882E-CAAEFBFF4CEB}.Release|iPhoneSimulator.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
