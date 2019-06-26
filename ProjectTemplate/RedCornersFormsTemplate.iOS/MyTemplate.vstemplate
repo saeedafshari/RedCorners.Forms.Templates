@@ -1,0 +1,57 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>RedCornersFormsTemplate.iOS</Name>
+    <Description>RedCorners.Forms iOS Sub-Template</Description>
+    <ProjectType>CSharp</ProjectType>
+    <ProjectSubType>
+    </ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>RedCornersFormsTemplate.iOS</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.png</Icon>
+    <PreviewImage>__PreviewImage.png</PreviewImage>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="RedCornersFormsTemplate.iOS.csproj" File="RedCornersFormsTemplate.iOS.csproj" ReplaceParameters="true">
+      <ProjectItem ReplaceParameters="true" TargetFileName="AppDelegate.cs">AppDelegate.cs</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Entitlements.plist">Entitlements.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="false" TargetFileName="Info.plist">Info.plist</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Main.cs">Main.cs</ProjectItem>
+      <Folder Name="Properties" TargetFolderName="Properties">
+        <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
+      </Folder>
+      <Folder Name="Resources" TargetFolderName="Resources">
+        <ProjectItem ReplaceParameters="false" TargetFileName="Default-568h@2x.png">Default-568h@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Default-Portrait.png">Default-Portrait.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Default-Portrait@2x.png">Default-Portrait@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Default.png">Default.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="Default@2x.png">Default@2x.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="icon_rect_1024.png">icon_rect_1024.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="LaunchScreen.storyboard">LaunchScreen.storyboard</ProjectItem>
+      </Folder>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Contents.json">Contents.json</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\icon_rect_1024.png">icon_rect_1024.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@1x.png">Icon-App-20x20@1x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@2x.png">Icon-App-20x20@2x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-20x20@3x.png">Icon-App-20x20@3x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@1x.png">Icon-App-29x29@1x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@2x.png">Icon-App-29x29@2x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@2x1.png">Icon-App-29x29@2x1.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-29x29@3x.png">Icon-App-29x29@3x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@1x.png">Icon-App-40x40@1x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@2x.png">Icon-App-40x40@2x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@2x1.png">Icon-App-40x40@2x1.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-40x40@3x.png">Icon-App-40x40@3x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@1x.png">Icon-App-60x60@1x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@2x.png">Icon-App-60x60@2x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-60x60@3x.png">Icon-App-60x60@3x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-72x72@1x.png">Icon-App-72x72@1x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@1x.png">Icon-App-76x76@1x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-76x76@2x.png">Icon-App-76x76@2x.png</ProjectItem>
+        <ProjectItem TargetFileName="\Assets.xcassets\AppIcon.appiconset\Icon-App-83.5x83.5@2x.png">Icon-App-83.5x83.5@2x.png</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>

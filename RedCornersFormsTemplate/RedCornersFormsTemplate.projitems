@@ -25,7 +25,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Compile Update="E:\Projects\RedCorners.Forms.Template\RedCornersFormsTemplate.Shared\Views\MainPage.xaml.cs">
+    <Compile Update="E:\Projects\RedCorners.Forms.Template\RedCornersFormsTemplate\Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
   </ItemGroup>

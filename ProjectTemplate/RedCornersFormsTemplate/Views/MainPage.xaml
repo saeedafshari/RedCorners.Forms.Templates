@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rf:ContentPage2
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:rf="clr-namespace:RedCorners.Forms;assembly=RedCorners.Forms"
+    xmlns:vm="clr-namespace:$safeprojectname$.ViewModels"
+    mc:Ignorable="d"
+    x:Class="$safeprojectname$.Views.MainPage">
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+
+    <rf:TitledContentView Title="$safeprojectname$" TitleColor="#e91e63" BackCommand="{Binding ShowSideBarCommand}" IsBackButtonVisible="False">
+        <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
+            <Label Text="Welcome to RedCorners.Forms" HorizontalOptions="Center" />
+            <Label Text="{Binding Count, StringFormat='Count: {0}'}" HorizontalOptions="Center" />
+            <Button Text="Count" Command="{Binding CountCommand}" HorizontalOptions="Center" />
+        </StackLayout>
+
+        <rf:TitledContentView.Overlay>
+            <rf:SideBar ContentSize="2*">
+                <Frame Padding="0" BackgroundColor="#333333" HasShadow="True" CornerRadius="0">
+                    <StackLayout Padding="30, 40">
+                        <Image Source="http://ooze.redcorners.com/redcorners_forms_logo.png" HorizontalOptions="Center" HeightRequest="128" WidthRequest="128" />
+                        <Label Text="$safeprojectname$" FontSize="Large" TextColor="White" HorizontalTextAlignment="Center" />
+                        <rf:HorizontalLine />
+                        <Button Text="Hide" Command="{Binding HideSideBarCommand}" />
+                    </StackLayout>
+                </Frame>
+            </rf:SideBar>
+        </rf:TitledContentView.Overlay>
+    </rf:TitledContentView>
+</rf:ContentPage2>

@@ -5,13 +5,13 @@
     <Platform Condition=" '$(Platform)' == '' ">iPhoneSimulator</Platform>
     <ProductVersion>8.0.30703</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{2DBC1A1D-AC46-4809-8C23-5068D7151502}</ProjectGuid>
+    <ProjectGuid>{$guid1$}</ProjectGuid>
     <ProjectTypeGuids>{FEACFBD2-3405-455C-9665-78FE426C6842};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
     <TemplateGuid>{6143fdea-f3c2-4a09-aafa-6e230626515e}</TemplateGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>RedCornersFormsTemplate.iOS</RootNamespace>
+    <RootNamespace>$safeprojectname$</RootNamespace>
     <IPhoneResourcePrefix>Resources</IPhoneResourcePrefix>
-    <AssemblyName>RedCornersFormsTemplate.iOS</AssemblyName>
+    <AssemblyName>$safeprojectname$</AssemblyName>
     <MtouchEnableSGenConc>true</MtouchEnableSGenConc>
     <MtouchHttpClientHandler>NSUrlSessionHandler</MtouchHttpClientHandler>
   </PropertyGroup>
@@ -157,6 +157,6 @@
   <ItemGroup>
     <BundleResource Include="Resources\**\*.png" />
   </ItemGroup>
-  <Import Project="..\RedCornersFormsTemplate\RedCornersFormsTemplate.projitems" Label="Shared" />
+  <!--<Import Project="..\$ext_safeprojectname$\$ext_safeprojectname$.projitems" Label="Shared" />-->
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
 </Project>

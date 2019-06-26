@@ -6,7 +6,6 @@ namespace RedCornersFormsTemplate
 {
     public enum Signals
     {
-        SaveSettings,
-        AndroidOnRequestPermissionsResult
+        SaveSettings
     }
 }
