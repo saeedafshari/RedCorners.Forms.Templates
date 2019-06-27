@@ -1,0 +1,70 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<rf:ContentPage2
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:rf="clr-namespace:RedCorners.Forms;assembly=RedCorners.Forms"
+    mc:Ignorable="d"
+    x:Class="$rootnamespace$.$safeitemname$">
+    <ContentPage.BindingContext>
+        <rf:BindableModel x:Name="viewModel" />
+    </ContentPage.BindingContext>
+    <rf:ContentPage2.Resources>
+        <ResourceDictionary>
+            <Style TargetType="rf:TitledContentView">
+                <Setter Property="BackCommand" Value="{Binding ShowSideBarCommand}" />
+                <Setter Property="IsBackButtonVisible" Value="False" />
+                <Setter Property="TitlePosition" Value="Top" />
+                <Setter Property="FixTitlePadding" Value="True" />
+                <Setter Property="TitleColor" Value="#e91e63" />
+            </Style>
+        </ResourceDictionary>
+    </rf:ContentPage2.Resources>
+
+    <Grid>
+        <rf:TabbedContentView
+            Transition="Slide"
+            TabStyle="ImageText"
+            TabBarBackgroundColor="#FEFEFE"
+            BackgroundColor="#FFFFFF"
+            TabBarSizeRequest="80"
+            TabBarPadding="0,5,0,10">
+            <rf:TabbedContentView.Background>
+                <rf:TitledContentView />
+            </rf:TabbedContentView.Background>
+
+            <rf:TitledContentView Title="Page 1" Icon="icon">
+                <rf:TitledContentView.ToolBar>
+                    <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
+                        <!-- Define Page's Toolbar Here -->
+                        <Button Text="Hello" VerticalOptions="Center" TextColor="White" BackgroundColor="Transparent" />
+                    </StackLayout>
+                </rf:TitledContentView.ToolBar>
+                <Grid>
+                    <Label HorizontalOptions="Center" VerticalOptions="Center" Text="Hello, $safeitemname$ !" />
+                </Grid>
+            </rf:TitledContentView>
+
+            <rf:TitledContentView Title="Page 2" Icon="icon">
+                <Grid>
+                    <Label HorizontalOptions="Center" VerticalOptions="Center" Text="Hello, Page 2!" />
+                </Grid>
+            </rf:TitledContentView>
+
+            <rf:TitledContentView Title="Page 3" Icon="icon">
+                <Grid>
+                    <Label HorizontalOptions="Center" VerticalOptions="Center" Text="Hello, Page 3!" />
+                </Grid>
+            </rf:TitledContentView>
+        </rf:TabbedContentView>
+
+        <rf:SideBar ContentSize="2*" Side="Left">
+            <Frame Padding="0" BackgroundColor="#333333" HasShadow="True" CornerRadius="0">
+                <StackLayout Padding="20, 40">
+                    <!-- Define SideBar Here -->
+                </StackLayout>
+            </Frame>
+        </rf:SideBar>
+    </Grid>
+</rf:ContentPage2>
