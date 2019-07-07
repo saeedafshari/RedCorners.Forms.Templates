@@ -1,4 +1,4 @@
-﻿using RedCorners.Components;
+using RedCorners.Components;
 using RedCorners.Forms;
 using $safeprojectname$.Systems;
 using System;
@@ -17,6 +17,7 @@ namespace $safeprojectname$
 
         public override void InitializeSystems()
         {
+            InitializeComponent();
             base.InitializeSystems();
             SplashTasks.Add(SettingsSystem.Instance.InitializeAsync);
         }

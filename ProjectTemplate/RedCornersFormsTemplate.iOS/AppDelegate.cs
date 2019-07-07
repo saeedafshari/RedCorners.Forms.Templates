@@ -22,6 +22,7 @@ namespace $safeprojectname$
         //
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+            Xamarin.Forms.FormsMaterial.Init();
             global::Xamarin.Forms.Forms.Init();
             LoadApplication(new App());
 
