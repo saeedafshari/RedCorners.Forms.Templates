@@ -25,11 +25,6 @@
         <ProjectItem ReplaceParameters="true" TargetFileName="AssemblyInfo.cs">AssemblyInfo.cs</ProjectItem>
       </Folder>
       <Folder Name="Resources" TargetFolderName="Resources">
-        <ProjectItem ReplaceParameters="false" TargetFileName="Default-568h@2x.png">Default-568h@2x.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Default-Portrait.png">Default-Portrait.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Default-Portrait@2x.png">Default-Portrait@2x.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Default.png">Default.png</ProjectItem>
-        <ProjectItem ReplaceParameters="false" TargetFileName="Default@2x.png">Default@2x.png</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="icon@2x.png">icon@2x.png</ProjectItem>
         <ProjectItem ReplaceParameters="false" TargetFileName="LaunchScreen.storyboard">LaunchScreen.storyboard</ProjectItem>
       </Folder>
