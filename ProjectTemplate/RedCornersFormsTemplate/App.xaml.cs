@@ -10,7 +10,7 @@ using Xamarin.Forms;
 
 namespace $safeprojectname$
 {
-    public class App : Application2
+    public partial class App : Application2
     {
         public override Page GetFirstPage()
             => new Views.MainPage();

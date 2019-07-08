@@ -17,7 +17,6 @@
                 <Setter Property="IsBackButtonVisible" Value="False" />
                 <Setter Property="TitlePosition" Value="Top" />
                 <Setter Property="FixTitlePadding" Value="True" />
-                <Setter Property="TitleColor" Value="#e91e63" />
             </Style>
         </ResourceDictionary>
     </rf:ContentPage2.Resources>

@@ -12,7 +12,7 @@
         <vm:MainViewModel />
     </ContentPage.BindingContext>
 
-    <rf:TitledContentView Title="$safeprojectname$" TitleColor="#e91e63" BackCommand="{Binding ShowSideBarCommand}" IsBackButtonVisible="False">
+    <rf:TitledContentView Title="$safeprojectname$" BackCommand="{Binding ShowSideBarCommand}" IsBackButtonVisible="False">
         <StackLayout HorizontalOptions="Center" VerticalOptions="Center">
             <Label Text="Welcome to RedCorners.Forms" HorizontalOptions="Center" />
             <Label Text="{Binding Count, StringFormat='Count: {0}'}" HorizontalOptions="Center" />

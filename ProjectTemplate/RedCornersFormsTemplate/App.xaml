@@ -7,6 +7,19 @@
     <Application.Resources>
         <ResourceDictionary>
             <!-- Define Styles here -->
+            <Color x:Key="AccentColor">#e91e63</Color>
+
+            <Style TargetType="rf:TitleBar">
+                <Setter Property="BackgroundColor" Value="{StaticResource AccentColor}" />
+            </Style>
+
+            <Style TargetType="rf:TitledContentView">
+                <Setter Property="TitleColor" Value="{StaticResource AccentColor}" />
+            </Style>
+
+            <Style TargetType="Button">
+                <Setter Property="Visual" Value="Material" />
+            </Style>
         </ResourceDictionary>
     </Application.Resources>
 </rf:Application2>

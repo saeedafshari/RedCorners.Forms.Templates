@@ -7,7 +7,7 @@
     xmlns:rf="clr-namespace:RedCorners.Forms;assembly=RedCorners.Forms"
     mc:Ignorable="d"
     x:Class="$rootnamespace$.$safeitemname$">
-    <rf:TitledContentView Title="$safeitemname$" TitleColor="#e91e63" HasButton="False">
+    <rf:TitledContentView Title="$safeitemname$" HasButton="False">
         <rf:TitledContentView.ToolBar>
             <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
                 <!-- Define Toolbar Here -->

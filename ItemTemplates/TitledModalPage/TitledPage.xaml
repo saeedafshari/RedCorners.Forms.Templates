@@ -13,7 +13,6 @@
 
     <rf:TitledContentView 
         Title="$safeitemname$" 
-        TitleColor="#e91e63" 
         BackCommand="{Binding GoBackCommand}" 
         IsBackButtonVisible="True">
         <rf:TitledContentView.ToolBar>
