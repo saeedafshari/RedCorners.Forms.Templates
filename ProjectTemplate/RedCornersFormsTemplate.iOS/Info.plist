@@ -32,5 +32,31 @@
     <string>$ext_safeprojectname$</string>
     <key>XSAppIconAssets</key>
     <string>Assets.xcassets/AppIcon.appiconset</string>
+	<key>NSBluetoothPeripheralUsageDescription</key>
+	<string>This app needs access to the bluetooth peripheral to improve the user experience.</string>
+	<key>NSCameraUsageDescription</key>
+	<string>This app needs access to the camera to take photos.</string>
+	<key>NSPhotoLibraryAddUsageDescription</key>
+	<string>This app needs access to photos for uploading images.</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>This app needs access to photos for uploading images.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app needs access to microphone for capturing videos.</string>
+	<key>NSContactsUsageDescription</key>
+	<string>This app needs access to the contacts to continue.</string>
+	<key>NSCalendarsUsageDescription</key>
+	<string>This app needs access to the calendar to continue.</string>
+	<key>NSAppleMusicUsageDescription</key>
+	<string>This app needs access to the music to continue.</string>
+	<key>NSSiriUsageDescription</key>
+	<string>This app needs access to Siri to continue.</string>
+	<key>NSMotionUsageDescription</key>
+	<string>This app needs to be able to access your motion use.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>This app needs access to location to continue.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>This app needs access to location to continue.</string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>This app needs access to location to continue.</string>
 </dict>
 </plist>
