@@ -1,7 +1,7 @@
 <VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Item">
   <TemplateData>
     <TemplateID>BindableModel</TemplateID>
-    <DefaultName>BindableModel.cs</DefaultName>
+    <DefaultName>ViewModel.cs</DefaultName>
     <Name>Bindable ViewModel (RedCorners)</Name>
     <Description>Bindable Model / View Model</Description>
     <ProjectType>CSharp</ProjectType>
