@@ -8,6 +8,6 @@
     mc:Ignorable="d"
     x:Class="$rootnamespace$.$safeitemname$">
     <Grid>
-        <Label Text="Hello, ContentPage2!" />
+        <Label Text="Hello, $safeitemname$!" />
     </Grid>
 </rf:ContentPage2>

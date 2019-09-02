@@ -23,7 +23,7 @@
             <rf:SideBar ContentSize="2*">
                 <Frame Padding="0" BackgroundColor="#333333" HasShadow="True" CornerRadius="0">
                     <StackLayout Padding="30, 40">
-                        <Image Source="http://ooze.redcorners.com/redcorners_forms_logo.png" HorizontalOptions="Center" HeightRequest="128" WidthRequest="128" />
+                        <Image Source="icon" HorizontalOptions="Center" HeightRequest="128" WidthRequest="128" />
                         <Label Text="$safeprojectname$" FontSize="Large" TextColor="White" HorizontalTextAlignment="Center" />
                         <rf:HorizontalLine />
                         <Button Text="Hide" Command="{Binding HideSideBarCommand}" />
