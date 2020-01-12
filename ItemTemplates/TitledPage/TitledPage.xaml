@@ -5,7 +5,7 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:rf="clr-namespace:RedCorners.Forms;assembly=RedCorners.Forms"
-    xmlns:app="clr-namespace:$rootnamespace$"
+    xmlns:local="clr-namespace:$rootnamespace$"
     mc:Ignorable="d"
     x:Class="$rootnamespace$.$safeitemname$">
     <rf:TitledContentView Title="$safeitemname$" HasButton="False">
