@@ -5,6 +5,7 @@ using RedCorners.Forms;
 using RedCorners.Models;
 using System.Collections.Generic;
 using Xamarin.Forms;
+using RedCorners;
 
 namespace $rootnamespace$
 {

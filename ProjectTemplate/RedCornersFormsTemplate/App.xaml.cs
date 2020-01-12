@@ -1,7 +1,9 @@
+using RedCorners;
 using RedCorners.Components;
 using RedCorners.Forms;
 using $safeprojectname$.Systems;
 using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Text;

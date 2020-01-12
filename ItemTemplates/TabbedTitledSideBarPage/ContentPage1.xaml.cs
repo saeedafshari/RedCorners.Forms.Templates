@@ -7,6 +7,9 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
+using RedCorners;
+using RedCorners.Forms;
+
 namespace $rootnamespace$
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]

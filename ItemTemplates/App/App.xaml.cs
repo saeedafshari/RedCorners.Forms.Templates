@@ -1,6 +1,8 @@
 ﻿using System;
+using System.Linq;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
+using RedCorners;
 using RedCorners.Forms;
 using System.Threading.Tasks;
 

@@ -35,13 +35,18 @@ namespace $safeprojectname$.Systems
             isSaving = true;
             await Task.Run(() =>
             {
-                if (settings == null)
-                    settings = new ObjectStorage<Settings>();
-
-                settings.Data = Settings.Instance;
-                settings.Save();
+                Save();
             });
             isSaving = false;
+        }
+
+        public void Save()
+        {
+            if (settings == null)
+                settings = new ObjectStorage<Settings>();
+
+            settings.Data = Settings.Instance;
+            settings.Save();
         }
     }
 }
