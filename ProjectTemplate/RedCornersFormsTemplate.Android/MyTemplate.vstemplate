@@ -26,6 +26,9 @@
       </Folder>
       <Folder Name="Resources" TargetFolderName="Resources">
         <ProjectItem ReplaceParameters="true" TargetFileName="AboutResources.txt">AboutResources.txt</ProjectItem>
+        <Folder Name="drawable-anydpi-v26" TargetFolderName="drawable-anydpi-v26">
+          <ProjectItem ReplaceParameters="false" TargetFileName="icon.xml">icon.xml</ProjectItem>
+        </Folder>
         <Folder Name="drawable-hdpi" TargetFolderName="drawable-hdpi">
           <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
         </Folder>
@@ -34,6 +37,7 @@
         </Folder>
         <Folder Name="drawable-xxhdpi" TargetFolderName="drawable-xxhdpi">
           <ProjectItem ReplaceParameters="false" TargetFileName="icon.png">icon.png</ProjectItem>
+          <ProjectItem ReplaceParameters="false" TargetFileName="icon_fg.png">icon_fg.png</ProjectItem>
         </Folder>
         <Folder Name="layout" TargetFolderName="layout">
           <ProjectItem ReplaceParameters="false" TargetFileName="Tabbar.axml">Tabbar.axml</ProjectItem>

@@ -92,6 +92,7 @@
     <AndroidResource Include="Resources\layout\Toolbar.axml" />
     <AndroidResource Include="Resources\values\styles.xml" />
     <AndroidResource Include="Resources\values\colors.xml" />
+    <AndroidResource Include="Resources\drawable-anydpi-v26\icon.xml" />
   </ItemGroup>
   <ItemGroup>
     <AndroidResource Include="Resources\drawable-hdpi\**\*.gif" />
@@ -105,6 +106,9 @@
     <AndroidResource Include="Resources\drawable-xxhdpi\**\*.png" />
     <AndroidAsset Include="Assets\**\*.ttf" />
     <AndroidAsset Include="Assets\**\*.png" />
+    <AndroidAsset Include="Assets\**\*.jpg" />
+    <AndroidAsset Include="Assets\**\*.gif" />
+    <AndroidAsset Include="Assets\**\*.json" />
   </ItemGroup>
   <Import 
     Project="..\$ext_safeprojectname$\$ext_safeprojectname$.projitems" 
