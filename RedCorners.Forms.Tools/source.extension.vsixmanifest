@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <PackageManifest Version="2.0.0" xmlns="http://schemas.microsoft.com/developer/vsx-schema/2011" xmlns:d="http://schemas.microsoft.com/developer/vsx-schema-design/2011">
     <Metadata>
-        <Identity Id="RedCorners.Forms.Tools" Version="1.17" Language="en-US" Publisher="NeatCapital OÜ" />
+        <Identity Id="RedCorners.Forms.Tools" Version="1.19" Language="en-US" Publisher="NeatCapital OÜ" />
         <DisplayName>RedCorners.Forms.Tools</DisplayName>
         <Description xml:space="preserve">Project and Item templates to boost your Xamarin.Forms development experience. This package contains a Shared-Project scheme Xamarin.Forms starter project with RedCorners.Forms add-ins, as well as item templates for pages with TitleBars, SideBars and TabBars!</Description>
         <MoreInfo>https://redcorners.com/forms/</MoreInfo>
         <License>license.txt</License>
-        <GettingStartedGuide>http://redcorners.com/forms/templates/</GettingStartedGuide>
+        <GettingStartedGuide>https://redcorners.com/forms/templates/</GettingStartedGuide>
         <Icon>icon.png</Icon>
         <PreviewImage>icon.png</PreviewImage>
         <Tags>Xamarin.Forms, Cross-Platform, Xamarin, iOS, Android, XAML, ContentPage, ContentView, TabBar, TitleBar, SideBar, Tab View, Title Bar, Side Bar</Tags>
