@@ -10,7 +10,7 @@ using Microsoft.VisualStudio.Shell;
 using Microsoft.VisualStudio.Shell.Interop;
 using Task = System.Threading.Tasks.Task;
 
-namespace RedCorners.Forms.Templates.Commands
+namespace RedCorners.Forms.Tools.Commands
 {
     /// <summary>
     /// Command handler

@@ -13,7 +13,7 @@ using Microsoft.VisualStudio.Shell.Interop;
 using Microsoft.Win32;
 using Task = System.Threading.Tasks.Task;
 
-namespace RedCorners.Forms.Templates.Commands
+namespace RedCorners.Forms.Tools.Commands
 {
     /// <summary>
     /// This is the class that implements the package exposed by this assembly.
@@ -69,7 +69,7 @@ namespace RedCorners.Forms.Templates.Commands
             // Do any initialization that requires the UI thread after switching to the UI thread.
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
             await AppIconMakerCommand.InitializeAsync(this);
-            await RedCorners.Forms.Templates.Commands.ResourceSyncCommand.InitializeAsync(this);
+            await RedCorners.Forms.Tools.Commands.ResourceSyncCommand.InitializeAsync(this);
         }
 
         #endregion
