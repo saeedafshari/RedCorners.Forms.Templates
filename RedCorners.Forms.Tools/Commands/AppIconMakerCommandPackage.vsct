@@ -59,18 +59,32 @@
           <ButtonText>RedCorners.Forms Icon Maker...</ButtonText>
         </Strings>
       </Button>
-      <Button guid="guidAppIconMakerCommandPackageCmdSet" id="cmdidResourceSyncCommand" priority="0x0100" type="Button">
+      <Button guid="guidAppIconMakerCommandPackageCmdSet" id="cmdidResourceSyncCommand" priority="0x0200" type="Button">
         <Parent guid="guidAppIconMakerCommandPackageCmdSet" id="MyMenuGroup" />
         <!--<Icon guid="guidImages1" id="bmpPic1" />-->
         <Strings>
           <ButtonText>RedCorners.Forms ResourceSync...</ButtonText>
         </Strings>
       </Button>
-      <Button guid="guidAppIconMakerCommandPackageCmdSet" id="cmdidNeatTintCommand" priority="0x0100" type="Button">
+      <Button guid="guidAppIconMakerCommandPackageCmdSet" id="cmdidNeatTintCommand" priority="0x0300" type="Button">
         <Parent guid="guidAppIconMakerCommandPackageCmdSet" id="MyMenuGroup" />
         <!--<Icon guid="guidImages2" id="bmpPic1" />-->
         <Strings>
           <ButtonText>RedCorners.Forms Colorizer...</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAppIconMakerCommandPackageCmdSet" id="cmdidCleanBinObjCommand" priority="0x0400" type="Button">
+        <Parent guid="guidAppIconMakerCommandPackageCmdSet" id="MyMenuGroup" />
+        <!--<Icon guid="guidImages4" id="bmpPic1" />-->
+        <Strings>
+          <ButtonText>Clean bin and obj...</ButtonText>
+        </Strings>
+      </Button>
+      <Button guid="guidAppIconMakerCommandPackageCmdSet" id="cmdidReloadAllCommand" priority="0x0500" type="Button">
+        <Parent guid="guidAppIconMakerCommandPackageCmdSet" id="MyMenuGroup" />
+        <!--<Icon guid="guidImages3" id="bmpPic1" />-->
+        <Strings>
+          <ButtonText>Reload Solution</ButtonText>
         </Strings>
       </Button>
     </Buttons>
@@ -85,6 +99,8 @@
       <Bitmap guid="guidImages" href="Resources\AppIconMakerCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
       <Bitmap guid="guidImages1" href="Resources\ResourceSyncCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
       <Bitmap guid="guidImages2" href="Resources\NeatTintCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+      <Bitmap guid="guidImages3" href="Resources\ReloadAllCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
+      <Bitmap guid="guidImages4" href="Resources\CleanBinObjCommand.png" usedList="bmpPic1, bmpPic2, bmpPicSearch, bmpPicX, bmpPicArrows, bmpPicStrikethrough" />
     </Bitmaps>
   </Commands>
 
@@ -98,6 +114,8 @@
       <IDSymbol name="AppIconMakerCommandId" value="0x0100" />
       <IDSymbol value="4129" name="cmdidResourceSyncCommand" />
       <IDSymbol value="4130" name="cmdidNeatTintCommand" />
+      <IDSymbol value="4132" name="cmdidCleanBinObjCommand" />
+      <IDSymbol value="4131" name="cmdidReloadAllCommand" />
     </GuidSymbol>
 
     <GuidSymbol name="guidImages" value="{ae73982c-8ff8-4e1e-8e80-87aad18242cc}">
@@ -119,6 +137,24 @@
     </GuidSymbol>
   
     <GuidSymbol value="{845f2799-e730-4748-9fee-2b88df3d683a}" name="guidImages2">
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+      <IDSymbol name="bmpPicStrikethrough" value="6" />
+    </GuidSymbol>
+  
+    <GuidSymbol value="{87bb4f27-71a5-4533-8a18-e4537dab6320}" name="guidImages3">
+      <IDSymbol name="bmpPic1" value="1" />
+      <IDSymbol name="bmpPic2" value="2" />
+      <IDSymbol name="bmpPicSearch" value="3" />
+      <IDSymbol name="bmpPicX" value="4" />
+      <IDSymbol name="bmpPicArrows" value="5" />
+      <IDSymbol name="bmpPicStrikethrough" value="6" />
+    </GuidSymbol>
+  
+    <GuidSymbol value="{cfd328d4-afff-4367-8d10-52233d1f0c53}" name="guidImages4">
       <IDSymbol name="bmpPic1" value="1" />
       <IDSymbol name="bmpPic2" value="2" />
       <IDSymbol name="bmpPicSearch" value="3" />

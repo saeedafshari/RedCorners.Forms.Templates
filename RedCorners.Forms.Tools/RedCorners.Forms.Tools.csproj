@@ -55,7 +55,9 @@
   <ItemGroup>
     <Compile Include="Commands\AppIconMakerCommand.cs" />
     <Compile Include="Commands\AppIconMakerCommandPackage.cs" />
+    <Compile Include="Commands\CleanBinObjCommand.cs" />
     <Compile Include="Commands\NeatTintCommand.cs" />
+    <Compile Include="Commands\ReloadAllCommand.cs" />
     <Compile Include="Commands\ResourceSyncCommand.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -65,7 +67,9 @@
     </VSCTCompile>
     <Content Include="Commands\Resources\AppIconMakerCommand.png" />
     <Content Include="Commands\Resources\AppIconMakerCommandPackage.ico" />
+    <Content Include="Commands\Resources\CleanBinObjCommand.png" />
     <Content Include="Commands\Resources\NeatTintCommand.png" />
+    <Content Include="Commands\Resources\ReloadAllCommand.png" />
     <Content Include="Commands\Resources\ResourceSyncCommand.png" />
     <Content Include="ItemTemplates\App.zip">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
@@ -159,6 +163,10 @@
     <ProjectReference Include="..\..\ResourceSync\ResourceSync.csproj">
       <Project>{6964ad4a-31ee-4c81-96bf-c8f898c4a330}</Project>
       <Name>ResourceSync</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SuperCleaner\SuperCleaner.csproj">
+      <Project>{9148b4e7-0e24-4402-a5c7-8d69635e1bad}</Project>
+      <Name>SuperCleaner</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

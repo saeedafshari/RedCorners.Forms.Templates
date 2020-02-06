@@ -71,6 +71,8 @@ namespace RedCorners.Forms.Tools.Commands
             await AppIconMakerCommand.InitializeAsync(this);
             await RedCorners.Forms.Tools.Commands.ResourceSyncCommand.InitializeAsync(this);
             await RedCorners.Forms.Tools.Commands.NeatTintCommand.InitializeAsync(this);
+            await RedCorners.Forms.Tools.Commands.ReloadAllCommand.InitializeAsync(this);
+            await RedCorners.Forms.Tools.Commands.CleanBinObjCommand.InitializeAsync(this);
         }
 
         #endregion
