@@ -70,6 +70,7 @@ namespace RedCorners.Forms.Tools.Commands
             await this.JoinableTaskFactory.SwitchToMainThreadAsync(cancellationToken);
             await AppIconMakerCommand.InitializeAsync(this);
             await RedCorners.Forms.Tools.Commands.ResourceSyncCommand.InitializeAsync(this);
+            await RedCorners.Forms.Tools.Commands.NeatTintCommand.InitializeAsync(this);
         }
 
         #endregion

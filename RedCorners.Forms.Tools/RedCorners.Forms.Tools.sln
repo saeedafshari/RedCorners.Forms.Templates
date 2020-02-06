@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceSync", "..\..\Resou
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tools", "Tools", "{C01C7EC9-9865-41A1-A10D-EAB3A39F93CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NeatTint", "..\..\NeatTint\NeatTint\NeatTint.csproj", "{57E46C08-1908-4C92-B900-D368F7E1DC73}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -29,6 +31,10 @@ Global
 		{6964AD4A-31EE-4C81-96BF-C8F898C4A330}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6964AD4A-31EE-4C81-96BF-C8F898C4A330}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6964AD4A-31EE-4C81-96BF-C8F898C4A330}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57E46C08-1908-4C92-B900-D368F7E1DC73}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57E46C08-1908-4C92-B900-D368F7E1DC73}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57E46C08-1908-4C92-B900-D368F7E1DC73}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57E46C08-1908-4C92-B900-D368F7E1DC73}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -36,6 +42,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{A8406762-D1C0-4513-A209-FA3C18DD60DC} = {C01C7EC9-9865-41A1-A10D-EAB3A39F93CF}
 		{6964AD4A-31EE-4C81-96BF-C8F898C4A330} = {C01C7EC9-9865-41A1-A10D-EAB3A39F93CF}
+		{57E46C08-1908-4C92-B900-D368F7E1DC73} = {C01C7EC9-9865-41A1-A10D-EAB3A39F93CF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0532411D-1122-4942-86CC-7BC35E2CB46B}
