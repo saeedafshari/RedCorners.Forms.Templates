@@ -14,8 +14,7 @@ namespace $safeprojectname$
     // User Interface of the application, as well as listening (and optionally responding) to 
     // application events from iOS.
     [Register("AppDelegate")]
-    public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate,
-        IUNUserNotificationCenterDelegate, IMessagingDelegate
+    public partial class AppDelegate : global::Xamarin.Forms.Platform.iOS.FormsApplicationDelegate
     {
         public static AppDelegate Instance { get; private set; }
 
