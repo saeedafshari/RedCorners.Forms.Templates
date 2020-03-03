@@ -6,7 +6,6 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:rf="clr-namespace:RedCorners.Forms;assembly=RedCorners.Forms"
     xmlns:vm="clr-namespace:$safeprojectname$.ViewModels"
-    xmlns:local="clr-namespace:$rootnamespace$"
     mc:Ignorable="d"
     x:Class="$safeprojectname$.Views.MainPage">
     <ContentPage.BindingContext>
