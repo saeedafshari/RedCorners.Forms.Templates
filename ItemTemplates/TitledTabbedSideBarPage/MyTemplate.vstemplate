@@ -2,8 +2,8 @@
   <TemplateData>
 	  <TemplateID>TitledTabbedSideBarPage</TemplateID>
     <DefaultName>TitledTabbedPage.xaml</DefaultName>
-    <Name>Titled Page with Tabs and SideBar for Xamarin.Forms (RedCorners)</Name>
-    <Description>Xamarin.Forms Page with TitleBar, TabBar and SideBar</Description>
+    <Name>Page with Tabs, Title Bar and Side Bar for Xamarin.Forms (RedCorners)</Name>
+    <Description>Xamarin.Forms Page with Title Bar, Tab Bar and Side Bar</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>1</SortOrder>
     <Icon>__TemplateIcon.png</Icon>

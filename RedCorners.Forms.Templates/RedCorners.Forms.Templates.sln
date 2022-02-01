@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32113.165
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RedCorners.Forms.Templates", "RedCorners.Forms.Templates\RedCorners.Forms.Templates.csproj", "{BDBD07E7-23C2-4F5B-B141-DC36B3718956}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDBD07E7-23C2-4F5B-B141-DC36B3718956}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDBD07E7-23C2-4F5B-B141-DC36B3718956}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDBD07E7-23C2-4F5B-B141-DC36B3718956}.Debug|x86.ActiveCfg = Debug|x86
+		{BDBD07E7-23C2-4F5B-B141-DC36B3718956}.Debug|x86.Build.0 = Debug|x86
+		{BDBD07E7-23C2-4F5B-B141-DC36B3718956}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDBD07E7-23C2-4F5B-B141-DC36B3718956}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BDBD07E7-23C2-4F5B-B141-DC36B3718956}.Release|x86.ActiveCfg = Release|x86
+		{BDBD07E7-23C2-4F5B-B141-DC36B3718956}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {278118DA-AA07-4AEF-AEA9-9F25C1E872B7}
+	EndGlobalSection
+EndGlobal

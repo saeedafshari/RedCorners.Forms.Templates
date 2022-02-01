@@ -2,8 +2,8 @@
   <TemplateData>
 	  <TemplateID>TitledModalPage</TemplateID>
     <DefaultName>TitledModalPage.xaml</DefaultName>
-    <Name>Modal Titled Page for Xamarin.Forms (RedCorners)</Name>
-    <Description>Xamarin.Forms Modal Page with TitleBar</Description>
+    <Name>Modal Page with Title Bar for Xamarin.Forms (RedCorners)</Name>
+    <Description>Xamarin.Forms Modal Page with Title Bar</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>1</SortOrder>
     <Icon>__TemplateIcon.png</Icon>

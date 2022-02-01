@@ -2,8 +2,8 @@
   <TemplateData>
 	  <TemplateID>TitledPage</TemplateID>
     <DefaultName>TitledPage.xaml</DefaultName>
-    <Name>TitledPage for Xamarin.Forms (RedCorners)</Name>
-    <Description>Xamarin.Forms Page with TitleBar</Description>
+    <Name>Page with Title Bar for Xamarin.Forms (RedCorners)</Name>
+    <Description>Xamarin.Forms Page with Title Bar</Description>
     <ProjectType>CSharp</ProjectType>
     <SortOrder>1</SortOrder>
     <Icon>__TemplateIcon.png</Icon>

@@ -5,6 +5,7 @@
     xmlns:d="http://xamarin.com/schemas/2014/forms/design"
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     xmlns:rf="clr-namespace:RedCorners.Forms;assembly=RedCorners.Forms"
+    xmlns:rfc="clr-namespace:RedCorners.Forms.Converters;assembly=RedCorners.Forms"
     xmlns:local="clr-namespace:$rootnamespace$"
     mc:Ignorable="d"
     x:Class="$rootnamespace$.$safeitemname$">
@@ -12,29 +13,29 @@
         <rf:BindableModel />
     </ContentPage.BindingContext>
 
-    <rf:TitledContentView 
+    <rf:TitledGroup 
         Title="$safeitemname$" 
         BackCommand="{Binding ShowSideBarCommand}" 
         IsBackButtonVisible="False">
-        <rf:TitledContentView.ToolBar>
+        <rf:TitledGroup.ToolBar>
             <StackLayout Orientation="Horizontal" VerticalOptions="CenterAndExpand">
-                <!-- Define Toolbar Here -->
+                <!-- Create Toolbar Here -->
             </StackLayout>
-        </rf:TitledContentView.ToolBar>
+        </rf:TitledGroup.ToolBar>
 
-        <rf:TitledContentView.Overlay>
+        <rf:TitledGroup.Overlay>
             <rf:SideBar ContentSize="2*" Side="Left">
                 <Frame Padding="0" BackgroundColor="#333333" HasShadow="True" CornerRadius="0">
                     <StackLayout Padding="20, 40">
-                        <!-- Define SideBar Here -->
+                        <!-- Customize SideBar Here -->
                     </StackLayout>
                 </Frame>
             </rf:SideBar>
-        </rf:TitledContentView.Overlay>
+        </rf:TitledGroup.Overlay>
 
         <Grid>
             <!-- Define Page Contents Here -->
             <Label Text="Hello, $safeitemname$!" HorizontalOptions="Center" VerticalOptions="Center" />
         </Grid>
-    </rf:TitledContentView>
+    </rf:TitledGroup>
 </rf:ContentPage2>
